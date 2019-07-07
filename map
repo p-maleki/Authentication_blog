@@ -1,0 +1,29 @@
+
+    - app
+    ------ models
+    ---------- user.js  <!-- our user model -->
+    ------ routes.js    <!-- all the routes for our application --> ///// *////
+    - config
+    ------ auth.js      <!-- will hold all our client secret keys (facebook, twitter, google) -->
+    ------ database.js  <!-- will hold our database connection settings -->
+    ------ passport.js  <!-- configuring the strategies for passport -->///// *////
+    - views
+    ------ index.ejs    <!-- show our home page with login links -->
+    ------ login.ejs    <!-- show our login form -->
+    ------ signup.ejs   <!-- show our signup form -->
+    ------ profile.ejs  <!-- after a user signup , they will see their profile -->
+    - package.json      <!-- handle our npm packages -->
+    - server.js         <!-- setup our application -->    ///// *////
+
+https://scotch.io/tutorials/build-and-understand-a-simple-nodejs-website-with-user-authentication// تمرین بیشتر 
+https://medium.com/gomycode/authentication-with-passport-js-73ca65b25feb //   متفاوت هست 
+https://expressjs.com/en/guide/using-middleware.html
+https://www.codementor.io/mayowa.a/how-to-build-a-simple-session-based-authentication-system-with-nodejs-from-scratch-6vn67mcy3             این متفاوت هستش  
+https://robomongo.org/
+https://stackoverflow.com/questions/15711127/express-passport-node-js-error-handling
+https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+http://www.passportjs.org/docs/
+app.post('/login', passport.authenticate('local', { successRedirect: '/',
+                failureRedirect: '/login' }));
+$ npm install passport
+

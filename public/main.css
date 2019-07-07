@@ -1,0 +1,20 @@
+.header
+{
+    background-color: rgb(204, 204, 226);
+    color: rgb(126, 126, 252);
+    padding: 3em;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+body
+{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.desciption
+{
+    font-size: 20px;
+    
+}
